@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondopagina{
+    background-color: rgba(64, 207, 255, 0.17);
+}
+
+.encabezado, .menudecontenido {
+    background-color: rgba(181, 178, 178, 0.50);
+    width: 80%;
+    max-width: 1000;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.encabezado {
+    border-color: #00008B;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#logotexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#TITULO PRINCIPAL {
+    text-align: center;
+}
+
+
+.PRO{
+    background-color: #00008B;
+}
+
+.menudeopciones{
+    background-color: #00008B;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#opciones{
+    background-color: #00008B;
+    list-style: none;
+    float: right;
+ 
+}
+
+#enlaces{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#enlaces:hover{
+    background-color: rgb(195, 43, 226);
+    transition: 2s;
+}
